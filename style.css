@@ -1,0 +1,48 @@
+#kreis{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: white;
+    border: 5px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    z-index: 2;
+}
+ #pentagon {
+     position: absolute;
+     width: 54px;
+     box-sizing: content-box;
+     border-width: 50px 18px 0;
+     border-style: solid;
+     border-color: black transparent;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+
+
+
+
+ }
+#pentagon:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: transparent transparent black;
+}
+
+#arrowdown{
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid black;
+    margin-bottom: 100px;
+
+}
