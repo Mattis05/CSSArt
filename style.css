@@ -112,3 +112,9 @@ body{
     transform: rotate(-144deg);
 
 }
+
+#linemiddle{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
