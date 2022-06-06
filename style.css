@@ -50,6 +50,7 @@ body{
     left: 100px;
     top: -1px;
     z-index: 1;
+    border-radius: 20pt
 
 }
 
@@ -64,6 +65,7 @@ body{
     top: 89px;
     z-index: 1;
     transform: rotate(72deg);
+    border-radius: 20pt
 
 }
 
@@ -78,6 +80,7 @@ body{
     top: 88px;
     z-index: 1;
     transform: rotate(-72deg);
+    border-radius: 20pt
 
 }
 
@@ -92,6 +95,7 @@ body{
     bottom: 20px;
     z-index: 1;
     transform: rotate(144deg);
+    border-radius: 20pt
 
 }
 
@@ -106,6 +110,7 @@ body{
     bottom: 20px;
     z-index: 1;
     transform: rotate(-144deg);
+    border-radius: 20pt
 
 }
 
