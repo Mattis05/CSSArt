@@ -15,6 +15,7 @@ body{
     position: absolute;
     z-index: 3;
 }
+/* Pentagon inspiriert von : https://css-tricks.com/the-shapes-of-css/ */
  #pentagon {
      position: relative;
      width: 54px;
@@ -61,8 +62,8 @@ body{
     border-right: 50px solid transparent;
     border-top: 50px solid black;
     position: absolute;
-    right: -20px;
-    top: 89px;
+    right: -22px;
+    top: 88px;
     z-index: 1;
     transform: rotate(72deg);
     border-radius: 20pt
